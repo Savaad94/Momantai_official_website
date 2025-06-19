@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momantai</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- Contenedor del Logo -->
+  <div class="logo-container">
+    <div class="logo"></div>
+  </div>
+
+  <!-- Menú de navegación -->
+  <nav class="menu-nav">
+    <input type="checkbox" id="toggle" class="toggle">
+    <label for="toggle" class="hamburguesa">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <ul class="menu">
+      <li><a href="index.html" class="menu-link">Home</a></li>
+      <li><a href="team.html" class="menu-link">Team</a></li>
+      <li><a href="menu.html" class="menu-link">Menu</a></li>
+      <li><a href="contact.html" class="menu-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Encabezado principal -->
+  <header>
+    <h1>Momantai means serenity in every flavor</h1>
+  </header>
+
+  <!-- Primera sección: About -->
+  <section class="about">
+    <div class="about-content">
+      <!-- Contenido de texto -->
+      <div class="about-text">
+        <h2>What means Momantai?</h2>
+        <p>
+          <strong>Momantai</strong> is a concept born from <strong>ancient Chinese wisdom</strong>, a term that evokes the tranquility and fullness of being. At its core, it means "to be" in its purest form, achieved through a balance of body, mind, and soul. This philosophy is reflected in each dish, crafted not merely to nourish but to elevate. At Momantai, every ingredient and every flavor touch serves to create an experience beyond food—a meditation in each bite.
+        </p>
+        <p>
+          Guided by <strong>Master Chef Jack Chan</strong>, who brings over <strong>30 years of culinary mastery</strong>, Momantai captures this philosophy with unmatched precision. Chef Chan, inspired by his upbringing in Sheung Wan’s traditional seafood market, brings an intimate knowledge of <strong>Cantonese ingredients</strong> and refined techniques. His approach honors both tradition and innovation, applying his expertise to create dishes that balance purity, texture, and elegance in every detail.
+        </p>
+      </div>
+      <!-- Imagen al lado del texto -->
+      <div class="about-image-content"></div>
+    </div>
+    <!-- Imagen en columna aparte -->
+    <div class="about-image"></div>
+  </section>
+
+  <!-- Segunda sección: About-2 -->
+  <section class="about-2">
+    <div class="about-2-image"></div>
+    <div class="about-2-content">
+      <div class="about-2-text">
+        <h2>Crafting Excellence with Harmony</h2>
+        <p>
+          At Momantai, we understand that true excellence begins with respect for <strong>nature’s delicate balance</strong>. In a world where resources grow scarcer, we partner with <strong>small, dedicated producers</strong> whose sustainable practices reflect our own philosophy. With the guidance of Master Chef Jack Chan, we embrace small-scale production, ensuring each ingredient is sourced with care, honoring both the earth and its offerings.
+        </p>
+        <p>
+          Guided by Chef Chan’s reverence for tradition and his innovative spirit, Momantai transcends the typical dining experience. Each dish becomes a testament to our belief that by nurturing the earth, we also nurture the soul.
+        </p>
+        <p>
+          Step into the serene world of Momantai, where tradition meets innovation under the masterful hand of Chef Chan. <strong>Reserve your table</strong> and begin a culinary journey that respects the earth and celebrates true culinary serenity.
+        </p>
+      </div>
+      <div class="about-2-buttons">
+        <button class="btn-primary" onclick="location.href='contact.html';"><strong>Booking</strong></button>
+        <button class="btn-secondary" onclick="location.href='menu.html';"><strong>Menu</strong></button>
+            </div>
+    </div>
+  </section>
+
+<!-- Galería de imágenes (Carrusel Circular) -->
+<!-- Galería de imágenes (Carrusel Circular) -->
+<section class="image-gallery">
+    <!-- Radio buttons para controlar las imágenes -->
+    <input type="radio" name="gallery" id="image1" checked>
+    <input type="radio" name="gallery" id="image2">
+    <input type="radio" name="gallery" id="image3">
+
+    <!-- Contenedor de las imágenes -->
+    <div class="gallery-container">
+        <div class="gallery-item" style="background-image: url('assets/sala_1_w.jpg');"></div>
+        <div class="gallery-item" style="background-image: url('assets/sala_2_w.jpg');"></div>
+        <div class="gallery-item" style="background-image: url('assets/sala_3_w.jpg');"></div>
+    </div>
+
+    <!-- Botoncitos para navegar -->
+    <div class="dots">
+        <label for="image1" class="dot"></label>
+        <label for="image2" class="dot"></label>
+        <label for="image3" class="dot"></label>
+    </div>
+</section>
+<!-- Sección Michelin -->
+<!-- Sección Michelin -->
+<section class="michelin">
+    <!-- Título -->
+    <h2>Serenity, Balance, and Michelin Honors</h2>
+
+    <!-- Fila de iconos -->
+    <div class="icon-row">
+        <div class="icon"></div> <!-- Primer icono -->
+        <div class="icon"></div> <!-- Segundo icono -->
+        <div class="icon"></div> <!-- Tercer icono -->
+    </div>
+</section>
+<footer class="footer">
+    <!-- Contenedor Principal -->
+    <div class="footer-content">
+        <!-- Primera Fila: Logo y Redes Sociales -->
+        <div class="footer-row">
+            <!-- Parte Izquierda -->
+            <div class="footer-left">
+                <div class="footer-logo"></div>
+                <h2>Momantai</h2>
+            </div>
+            <!-- Parte Derecha -->
+            <div class="footer-right">
+                <h2 class="social-heading">Be Social</h2>
+                <div class="social-icons">
+                    <button class="icon facebook-icon" onclick="location.href='https://www.facebook.com/Momantai';" aria-label="Facebook"></button>
+                    <button class="icon instagram-icon" onclick="location.href='https://www.instagram.com/Momantai';" aria-label="Instagram"></button>
+                    <button class="icon tripadvisor-icon" onclick="location.href='https://www.tripadvisor.com/Momantai';" aria-label="Tripadvisor"></button>
+                  </div>
+                              </div>
+        </div>
+
+        <!-- Segunda Fila: Contacto -->
+        <div class="footer-info">
+            <h3 class="footer-title">Granada awakens a quiet harmony, unfolding each sense with grace. Our cuisine is no different.</h3>
+            <p class="footer-description">Calle San Juan de Dios, No. 15, Local 1, 18001 Granada</p>
+        </div>
+
+        <!-- Tercera Fila: Tres Columnas -->
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3>Customer Service Hours</h3>
+                <p>Tuesday to Friday: 12h to 21h.<br>Saturdays: 12h to 17h.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Restaurant opening hours:</h3>
+                <p>From Tuesday to Saturday: <br> 13:30h to 16:00h and 20:30h to 23:00h <br> Sunday and Monday: Closed</p>
+            </div>
+            <div class="footer-column">
+                <h3>Customer Service Hours</h3>
+                <p>Tuesday to Friday: 12h to 21h.<br>Saturdays: 12h to 17h.</p>
+            </div>
+        </div>
+
+        <!-- Nueva Fila: Navegación -->
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="index.html" class="menu-link">Home</a></li>
+                <li><a href="team.html" class="menu-link">Team</a></li>
+                <li><a href="menu.html" class="menu-link">Menu</a></li>
+                <li><a href="contact.html" class="menu-link">Contact</a></li>
+                      </ul>
+        </nav>
+    </div>
+
+    <!-- Franja Negra -->
+    <div class="footer-bar">
+        <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a> |
+            <a href="cookies-policy.html">Cookies Policy</a>
+        </div>
+        <p>© 2024 Momantai. All Rights Reserved.</p>
+    </div>
+</footer>
+
